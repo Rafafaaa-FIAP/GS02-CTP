@@ -1,6 +1,5 @@
 
 class Colors:
-  ''' ANSI color codes '''
   BLACK = '\033[0;30m'
   RED = '\033[0;31m'
   GREEN = '\033[0;32m'
@@ -31,9 +30,6 @@ class Colors:
   ERROR = LIGHT_RED
   TEMPERATURE = '#36A2EB'
   TURBIDITY = '#FF6384'
-
-  def showColors():
-    print(f'{Colors.BLACK} BLACK {Colors.RED} RED {Colors.GREEN} GREEN {Colors.BROWN} BROWN {Colors.BLUE} BLUE {Colors.PURPLE} PURPLE {Colors.CYAN} CYAN {Colors.LIGHT_GRAY} LIGHT_GRAY {Colors.DARK_GRAY} DARK_GRAY {Colors.LIGHT_RED} LIGHT_RED {Colors.LIGHT_GREEN} LIGHT_GREEN {Colors.YELLOW} YELLOW {Colors.LIGHT_BLUE} LIGHT_BLUE {Colors.LIGHT_PURPLE} LIGHT_PURPLE {Colors.LIGHT_CYAN} LIGHT_CYAN {Colors.LIGHT_WHITE} LIGHT_WHITE {Colors.BOLD} BOLD {Colors.FAINT} FAINT {Colors.ITALIC} ITALIC {Colors.UNDERLINE} UNDERLINE {Colors.BLINK} BLINK {Colors.NEGATIVE} NEGATIVE {Colors.CROSSED} CROSSED {Colors.END} END ')
 
 class Texts:
   SEPARATOR1 = f'{Colors.TITLE1}--------------------------------------------------{Colors.END}'
