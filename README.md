@@ -1,4 +1,4 @@
-<h1 align="center">Global Solution - 1º Semestre - 1º Ano - 1ESPR</h1>
+<h1 align="center">Global Solution - 2º Semestre - 1º Ano - 1ESPR</h1>
 
 <hr/>
 
@@ -15,6 +15,8 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologist-Integrantes">Integrantes</a>
 </p>
+
+<hr/>
 
 ## :pushpin: Desafio
 O Desafio de “Inovação Azul” 2024 incentiva os estudantes, entusiastas de tecnologia, inovação e sustentabilidade, a contribuir para soluções que promovam uma gestão sustentável dos oceanos.
