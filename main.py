@@ -8,7 +8,6 @@ from Modules.firebase import Firebase
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 lang = Languages()
 menu = Menu(lang.selected['menu'])
 firebase = Firebase(lang.selected)
