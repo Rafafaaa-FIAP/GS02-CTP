@@ -16,6 +16,8 @@
   <a href="#technologist-Integrantes">Integrantes</a>
 </p>
 
+<hr/>
+
 ## :pushpin: Desafio
 O Desafio de “Inovação Azul” 2024 incentiva os estudantes, entusiastas de tecnologia, inovação e sustentabilidade, a contribuir para soluções que promovam uma gestão sustentável dos oceanos.
 Buscamos projetos que alertem e informem as populações costeiras e as empresas que utilizam os mares para existência e subsistência sobre a saúde dos oceanos.
