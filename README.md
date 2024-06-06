@@ -39,7 +39,7 @@ Além disso, utilizou as seguinte bibliotecas:
 Para utilização do código é necessário uma máquina com [Python](https://www.python.org/) instalado, assim como um compilador para rodar o código.
 
 ## :video_camera: Vídeo Explicativo
-Veja o vídeo explicativo clicando [aqui]().
+Veja o vídeo explicativo clicando [aqui](https://youtu.be/KZHZ9YfHcpc).
 
 ## :technologist: Integrantes
 * RM 552980 - Danilo Vieira
