@@ -1,18 +1,22 @@
 
+# Importações dos módulos
 from datetime import datetime
 from Modules.defaultValues import Colors
 from Modules.languages import Languages
 from Modules.menu import Menu
 from Modules.firebase import Firebase
 
+# Importação da biblioteca que gera os gráficos
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Setup dos módulos
 lang = Languages()
 menu = Menu(lang.selected['menu'])
 firebase = Firebase(lang.selected)
 readings = []
 
+# Função de inicializar os sistema (selecionar opção do Menu)
 def initializeSystem():
   print(lang.selected['begin'])
   global readings
@@ -36,6 +40,7 @@ def initializeSystem():
       changeLanguage()
   print(lang.selected['end'])
 
+# Função para obrigar o usuário a escolher uma opção dentre as existentes
 def selectOption(text, possibleOptions, funcShowOptions):
   funcShowOptions()
   text += ' '
@@ -46,6 +51,7 @@ def selectOption(text, possibleOptions, funcShowOptions):
     value = input(text)
   return value
 
+# Função que gera os gráficos de médias diárias
 def dailyAverage(figureTitle):
   global readings
   listData = {}
@@ -116,6 +122,7 @@ def dailyAverage(figureTitle):
 
   plt.show()
 
+# Função que gera os gráficos de médias mensais
 def monthlyAverage(figureTitle):
   global readings
   objData = {
@@ -161,6 +168,7 @@ def monthlyAverage(figureTitle):
 
   plt.show()
 
+# Função que altera o idioma do sistema
 def changeLanguage():
   global lang
   newLanguage = lang.returnLanguageByID(selectOption(lang.selected['selectLanguage'], lang.listID, lang.showAllLanguages))
@@ -171,4 +179,5 @@ def changeLanguage():
   firebase = Firebase(lang.selected)
   return
 
+# Chamando a função de inicializar o sistema
 initializeSystem()

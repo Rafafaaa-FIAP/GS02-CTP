@@ -1,4 +1,5 @@
 
+# Valores padrões de cores
 class Colors:
   BLACK = '\033[0;30m'
   RED = '\033[0;31m'
@@ -31,6 +32,7 @@ class Colors:
   TEMPERATURE = '#36A2EB'
   TURBIDITY = '#FF6384'
 
+# Valores padrões de textos
 class Texts:
   SEPARATOR1 = f'{Colors.TITLE1}--------------------------------------------------{Colors.END}'
   SEPARATOR2 = f'{Colors.TITLE2}-------------------------{Colors.END}'

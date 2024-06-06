@@ -1,6 +1,8 @@
 
+# Importação do módulo dos valores padrões
 from Modules.defaultValues import Colors, Texts
 
+#
 def returnBeginEndWithStyle(text):
   return f'{Colors.LIGHT_CYAN}{Colors.NEGATIVE}{text}{Colors.END}'
 
@@ -13,7 +15,9 @@ def returnInputWithStyle(text):
 def returnErrorWithStyle(text):
   return f'{Colors.ERROR}{text}{Colors.END}'
 
+# Criação da classe Languages
 class Languages:
+  # Função de inicialização da classe
   def __init__(self, selected = ''):
     self.all = {
       'pt_br': {
