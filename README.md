@@ -1,4 +1,4 @@
-<h1 align="center">Global Solution - 2º Semestre - 1º Ano - 1ESPR</h1>
+<h1 align="center">Global Solution 02 - Python</h1>
 
 <hr/>
 
@@ -11,7 +11,7 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#desktop_computer-Uso">Uso</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#desktop_computer-Vídeo-Explicativo">Vídeo Explicativo</a>
+  <a href="#video_camera-Vídeo-Explicativo">Vídeo Explicativo</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologist-Integrantes">Integrantes</a>
 </p>
@@ -36,7 +36,7 @@ Além disso, utilizou as seguinte bibliotecas:
 * [requests](https://pypi.org/project/requests/)
 
 ## :desktop_computer: Uso
-Para utilização do código é necessário uma máquina com [Python](https://www.python.org/) instalado, assim como um compilador para rodar o código.
+Para utilização do código é necessário uma máquina com Python instalado, assim como um compilador para rodar o código.
 
 ## :video_camera: Vídeo Explicativo
 Veja o vídeo explicativo clicando [aqui](https://youtu.be/KZHZ9YfHcpc).
